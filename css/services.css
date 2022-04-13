@@ -91,3 +91,120 @@
     display: block;
     line-height: 1
 }
+/* services one */
+.feature-one {
+    padding-bottom: 80px;
+    padding-top: 80px;
+
+}
+
+@media(min-width: 992px) {
+    .feature-one {
+        padding-bottom:120px;
+        padding-top: 120px;
+    }
+}
+
+.feature-one__image {
+    margin-top: 50px
+}
+
+@media(min-width: 992px) {
+    .feature-one__image {
+        margin-top:0
+    }
+}
+
+.feature-one__image img {
+    max-width: 100%;
+    border-radius: 5px
+}
+
+.feature-one__summery {
+    margin-bottom: 20px
+}
+
+@media(min-width: 1200px) {
+    .feature-one__summery {
+        margin-top:-30px;
+        max-width: 515px;
+        margin-bottom: 40px
+    }
+}
+
+.feature-one__summery p {
+    margin: 0
+}
+
+.feature-one__check-list {
+    margin-bottom: 0
+}
+
+.feature-one__check-list li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: #255946;
+    line-height: 1.4
+}
+
+@media(min-width: 1200px) {
+    .feature-one__check-list li {
+        font-size:20px
+    }
+}
+
+.feature-one__check-list li+li {
+    margin-top: 15px
+}
+
+@media(min-width: 1200px) {
+    .feature-one__check-list li+li {
+        margin-top:10px
+    }
+}
+
+.feature-one__check-list li>i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--thm-primary);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 18px;
+    margin-right: 20px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    color: #fff;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease
+}
+
+@media(min-width: 1200px) {
+    .feature-one__check-list li>i {
+        font-size:22px;
+        width: 52px;
+        height: 52px
+    }
+}
+
+.feature-one__check-list li:hover>i {
+    background-color: var(--thm-base);
+    color: #fff
+}
+/* jarallex sevices */
+.section .jarallax {
+    background-attachment: fixed;
+}

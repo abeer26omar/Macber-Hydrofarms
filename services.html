@@ -18,10 +18,10 @@
         <link rel="stylesheet" href="css/main.css" />
         <link rel="stylesheet" href="css/services.css">
         <link rel="shortcut icon" href="images/2.svg" type="image/x-icon">
-        <style type="text/css" id="jarallax-clip-0">
-          #jarallax-container-0 {
-            -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        <style type="text/css" id="jarallax-clip-1">
+          #jarallax-container-1 {
+            clip: rect(0 821.6000366210938px 1279.4500732421875px 0);
+            clip: rect(0, 821.6000366210938px, 1279.4500732421875px, 0);
           }
         </style>
         <style>
@@ -30,7 +30,12 @@
           }
       </style>
       </head>
-<body>
+      <!--Pre-loader-->
+  <div class="preloader hidden">
+    <img class="preloader__image" width="55" src="images/loader.png" alt="" />
+  </div>
+<body  class="hidden">
+  <div class="page-wrapper">
      <!--header-->
      <header class="main-header">
         <nav class="main-menu">
@@ -107,9 +112,45 @@
           <h2>Our Services</h2>
         </div>
       </section>
+      <!-- service one -->
+      <section class="feature-one">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 wow animate__animated animate__slideInLeft ">
+              <div class="feature-one__content">
+                <div class="block-title">
+                  <div class="block-title__image"></div>
+                    <p>What we’re offering</p>
+                    <h3>Better Agriculture for
+                      Better Future</h3>
+                  </div>
+                <div class="feature-one__summery">
+                    <p>There are many variations of passages of lorem ipsum available but the majority have suffered
+                    alteration in some form by injected humor or random word which don't look even.</p>
+                </div>
+                <ul class="list-unstyled feature-one__check-list">
+                  <li>
+                      <i class="fa-solid fa-check"></i>
+                      Get the best and fresh organic products
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i>
+                    Get the best and fresh organic products
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-6 wow animate__animated animate__slideInRight d-flex align-items-center">
+              <div class="feature-one__image">
+                <img src="images/DSC_1597.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+     <!-- service two -->
       <!-- footer -->
-      <!-- footer -->
-     <footer class="site-footer">
+      <footer class="site-footer">
       <img
         src="images/footer-bg-icon-1.png"
         class="site-footer__shape-1"
@@ -164,63 +205,64 @@
           </div>
         </div>
       </div>
-    </footer>
-    <div class="bottom-footer">
-      <div class="container">
-        <p>© Copyright 2022 by <a href="http://macber-eg.com" target="_blank">Macber.com</a></p>
-        <div class="bottom-footer__links">
-          <a href="#">Terms & Conditions</a>
-          <a href="#">Privacy Policy</a>
+      </footer>
+      <div class="bottom-footer">
+        <div class="container">
+          <p>© Copyright 2022 by <a href="http://macber-eg.com" target="_blank">Macber.com</a></p>
+          <div class="bottom-footer__links">
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Privacy Policy</a>
+          </div>
         </div>
       </div>
-    </div>
-      <!-- mobile nav -->
-  <div class="mobile-nav__wrapper">
-    <div class="mobile-nav__overlay mobile-nav__toggler"></div>
-
-    <div class="mobile-nav__content">
-      <span class="mobile-nav__close mobile-nav__toggler">
-        <i class="fa-solid fa-xmark"></i></span>
-      <div class="logo-box">
-        <a href="index.html" aria-label="logo image"
-          ><img src="images/22.svg" width="250" alt=""
-        /></a>
-      </div>
-
-      <div class="mobile-nav__container"></div>
-
-      <ul class="mobile-nav__contact list-unstyled">
-        <li>
-          <i class="fa-solid fa-envelope"></i>
-          <a href="">fake@fake.com</a>
-        </li>
-        <li>
-          <i class="fa-solid fa-phone"></i>
-          <a href="tel:666-888-0000">666 888 0000</a>
-        </li>
-      </ul>
-      <div class="mobile-nav__top">
-       
-        <div class="mobile-nav__social">
-          <a href="#" aria-label="twitter">
-            <i class="fab fa-twitter"></i></a>
-          <a href="#" aria-label="facebook"
-            ><i class="fab fa-facebook-square"></i
-          ></a>
-          <a href="#" aria-label="pinterest"
-            ><i class="fab fa-pinterest-p"></i
-          ></a>
-          <a href="#" aria-label="instagram"
-            ><i class="fab fa-instagram"></i
-          ></a>
-        </div>
-      </div>
-    </div>
   </div>
-  <!-- scroll up -->
-  <a href="#" data-target="html" class="scroll-to-target scroll-to-top">
-    <i class="fa fa-angle-up"></i>
-  </a>
+      <!-- mobile nav -->
+      <div class="mobile-nav__wrapper">
+        <div class="mobile-nav__overlay mobile-nav__toggler"></div>
+
+        <div class="mobile-nav__content">
+          <span class="mobile-nav__close mobile-nav__toggler">
+            <i class="fa-solid fa-xmark"></i></span>
+          <div class="logo-box">
+            <a href="index.html" aria-label="logo image"
+              ><img src="images/22.svg" width="250" alt=""
+            /></a>
+          </div>
+
+          <div class="mobile-nav__container"></div>
+
+          <ul class="mobile-nav__contact list-unstyled">
+            <li>
+              <i class="fa-solid fa-envelope"></i>
+              <a href="">fake@fake.com</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-phone"></i>
+              <a href="tel:666-888-0000">666 888 0000</a>
+            </li>
+          </ul>
+          <div class="mobile-nav__top">
+          
+            <div class="mobile-nav__social">
+              <a href="#" aria-label="twitter">
+                <i class="fab fa-twitter"></i></a>
+              <a href="#" aria-label="facebook"
+                ><i class="fab fa-facebook-square"></i
+              ></a>
+              <a href="#" aria-label="pinterest"
+                ><i class="fab fa-pinterest-p"></i
+              ></a>
+              <a href="#" aria-label="instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- scroll up -->
+      <a href="#" data-target="html" class="scroll-to-target scroll-to-top">
+        <i class="fa fa-angle-up"></i>
+      </a>
 
     <!--js links-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
