@@ -959,9 +959,11 @@
     padding-right: 0;
 }
 .tabs .nav-tabs .nav-link {
-    padding: .5rem 2.5rem ;
+    padding: .5rem 2rem ;
     cursor: pointer;
     color: var(--thm-color);
+    font-weight: 700;
+    font-size: 1.1rem;
 }
 /* .tabs .nav-tabs .nav-item:hover{
     border: none;
@@ -969,6 +971,11 @@
 .tabs .nav-tabs .nav-link:not(.active):hover{
     /* border: none; */
     color: var( --thm-primary);
+}
+@media screen and (min-width: 768px) {
+    .tabs .nav-tabs .nav-link {
+        padding: .5rem 4rem ;
+    }
 }
 @media screen and (max-width: 425px) {
     .tabs .nav-tabs .nav-link {

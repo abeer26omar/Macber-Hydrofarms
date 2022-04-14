@@ -204,7 +204,195 @@
     background-color: var(--thm-base);
     color: #fff
 }
-/* jarallex sevices */
-.section .jarallax {
-    background-attachment: fixed;
+/* sevice two */
+.tech-services {
+    position: relative;
+    display: block;
+    padding: 0 0 116px;
+}
+.tech-services-two {
+    padding-top: 120px;
+}
+.tech-services__left {
+    position: relative;
+    display: block;
+    margin-right: 70px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .tech-services__left {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 767px){
+    .tech-services__left {
+        margin-right: 0;
+    }
+}
+.tech-services__img-box {
+    position: relative;
+    display: block;
+}
+.tech-services__img {
+    position: relative;
+    display: block;
+}
+.tech-services__img img {
+    width: 100%;
+}
+.tech-services__img-content {
+    position: absolute;
+    top: 50%;
+    right: -90px;
+    background-color: var(--thm-primary);
+    padding: 41px 40px 39px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .tech-services__img-content {
+        right: -65px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .tech-services__img-content {
+        position: relative;
+        top: inherit;
+        right: inherit;
+        transform: inherit;
+    }
+}
+.tech-services__img-text {
+    font-size: 22px;
+    color: var(--thm-white);
+    line-height: 36px;
+}
+.tech-services__learn-more {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 24px;
+}
+.tech-services__learn-more a {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 14px;
+    color: var(--notech-white);
+    font-weight: 700;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+.tech-services__learn-more a i {
+    position: relative;
+    padding-left: 10px;
+    top: 2px;
+}
+.tech-services__right {
+    position: relative;
+    display: block;
+    margin-left: 70px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .tech-services__right {
+        margin: 50px auto 0;
+        max-width: 600px;
+    }
+}
+.section-title {
+    position: relative;
+    display: block;
+    margin-top: -10px;
+    margin-bottom: 49px;
+}
+.tech-services__right .section-title {
+    margin-bottom: 30px;
+}
+.section-title__tagline-box {
+    position: relative;
+    display: inline-block;
+}
+.section-title__tagline {
+    position: relative;
+    display: inline-block;
+    color: var(--thm-base);
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 16px;
+}
+.section-title-shape {
+    position: absolute;
+    top: -2px;
+    left: 0;
+}
+.section-title-shape img {
+    width: auto;
+}
+.section-title__title {
+    margin: 0;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+}
+.tech-services__text {
+    font-size: 16px;
+    line-height: 30px;
+    padding-bottom: 36px;
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.tech-services__points {
+    position: relative;
+    display: block;
+}
+.tech-services__points li {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.tech-services__points li .icon {
+    position: relative;
+    height: 48px;
+    width: 48px;
+    background-color: var(--thm-primary);
+    color: var(--thm-white);
+    font-size: 16px;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+.tech-services__points li .content {
+    margin-left: 20px;
+}
+.tech-services__points li .content h4 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+}
+.tech-services__points li .content p {
+    font-size: 16px;
+    line-height: 30px;
 }
