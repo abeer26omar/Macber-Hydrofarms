@@ -5,7 +5,7 @@
 .mb-120{
     margin-bottom: 120px;
 }
-.page-header {
+/* .page-header {
     background-color: var(--thm-base);
     position: relative
 }
@@ -96,7 +96,7 @@
 .thm-breadcrumb li span {
     display: block;
     line-height: 1
-}
+} */
 /* hifhlight */
 .highlight {
     background-color:#F8F8F8;

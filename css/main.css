@@ -580,6 +580,100 @@ h1,h2,h3,h4,h5,h6 {
         margin-bottom:60px
     }
 }
+/* page header */
+.page-header {
+    background-color: var(--thm-base);
+    position: relative
+}
+.page-header__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: -webkit-transform 7000ms ease;
+    transition: -webkit-transform 7000ms ease;
+    transition: transform 7000ms ease;
+    transition: transform 7000ms ease,-webkit-transform 7000ms ease;
+}
+
+.page-header .container {
+    position: relative;
+    z-index: 10;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    text-align: center
+}
+
+@media(max-width: 480px) {
+    .page-header .container {
+        padding-top:80px;
+        padding-bottom: 80px
+    }
+}
+
+.page-header .container h2 {
+    margin: 0;
+    line-height: 1;
+    font-family: var(--special-font);
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 700;
+    margin-top: 30px
+}
+
+@media(max-width: 480px) {
+    .page-header .container h2 {
+        font-size:36px
+    }
+}
+
+.thm-breadcrumb {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 0;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.thm-breadcrumb li {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-size: 1rem;
+    color: #fff;
+    line-height: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.thm-breadcrumb li:not(:last-of-type) {
+    margin-right: 10px
+}
+
+.thm-breadcrumb li a {
+    opacity: .7;
+    color: inherit
+}
+
+.thm-breadcrumb li span {
+    display: block;
+    line-height: 1
+}
+/* about one */
 .about-one {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -2090,7 +2184,7 @@ h1,h2,h3,h4,h5,h6 {
     display: none
 }
 /* search pop up */
-.search-popup {
+/* .search-popup {
     position: fixed;
     top: 0;
     left: 0;
@@ -2186,7 +2280,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .search-popup__content .thm-btn i {
     margin: 0
-}
+} */
 /* scroll to top */
 .scroll-to-top {
     display: inline-block;

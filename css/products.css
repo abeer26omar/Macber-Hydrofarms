@@ -1,0 +1,77 @@
+/* gallery */
+.crops-Gallrey{
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+.crops-Gallrey .col-lg-4.col-md-6.col-sm-12{
+    padding-top: 1.5rem;
+
+}
+.crops-Gallrey .item-media-gallery{
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+.item-media-gallery img{
+    width: 100%;
+    height: -webkit-fill-available;
+}
+.item-media-gallery .media-content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(var(--thm-primary-rgb),0.7);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 30px;
+    -webkit-transition: opacity 500ms ease,-webkit-transform 500ms ease;
+    transition: opacity 500ms ease,-webkit-transform 500ms ease;
+    transition: transform 500ms ease,opacity 500ms ease;
+    transition: transform 500ms ease,opacity 500ms ease,-webkit-transform 500ms ease;
+    -webkit-transform: translateY(40%);
+    transform: translateY(40%);
+    opacity: 0
+}
+.item-media-gallery:hover .media-content {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+    cursor: pointer;
+
+}
+.item-media-gallery .media-content .links-wrap{
+    display: flex;
+    justify-content:space-evenly;
+    align-self: center;
+    width: 50%;
+}
+.item-media-gallery .media-content .links-wrap a i{
+    color: var(--thm-primary);
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    background-color: var(--thm-white);   
+    font-size: 1rem; 
+    text-align: center;
+    vertical-align: middle;
+}
+.item-media-gallery .media-content .links-wrap a i:hover{
+    color: var(--thm-white);
+    background-color: var(--thm-primary);   
+}
+.item-media-gallery .media-content .item-link{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
